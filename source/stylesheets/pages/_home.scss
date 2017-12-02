@@ -34,6 +34,26 @@ body {
 }
 
 .links a:hover {
-    color: #ED6638;
+    opacity: .5;
     text-decoration: none;
+}
+
+.red {
+    color: #ef5350;
+}
+
+.purple {
+    color: #ab47bc;
+}
+
+.dark-blue {
+    color: #3949ab;
+}
+
+.blue {
+    color: #2196f3;
+}
+
+.green {
+    color: #4caf50;
 }

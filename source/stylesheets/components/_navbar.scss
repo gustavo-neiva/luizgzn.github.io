@@ -11,6 +11,18 @@
     position: relative;
 }
 
+.navbar-wagon {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.white {
+    background-color: white;
+    opacity: .9;
+}
+
 @media all and (max-width: 991px) {
     .navbar-wagon {
         border-bottom: none;
@@ -92,4 +104,17 @@
 
 .nav-up {
     top: -40px; // same as header height. use variables in LESS/SASS
+}
+
+
+// Header name
+
+.hidden {
+    display: none;
+}
+
+.name {
+    margin-left: 20px;
+    float: left;
+    margin-top: 10px;
 }
