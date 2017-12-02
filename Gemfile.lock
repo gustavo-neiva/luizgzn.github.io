@@ -39,8 +39,8 @@ GEM
     fast_blank (1.0.0)
     fastimage (2.1.0)
     ffi (1.9.18)
-    font-awesome-middleman (4.2.1)
-      middleman-core (>= 3.0.0)
+    font-awesome-sass (4.7.0)
+      sass (>= 3.2)
     haml (5.0.4)
       temple (>= 0.8.0)
       tilt
@@ -137,7 +137,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
-  font-awesome-middleman
+  font-awesome-sass
   jquery-middleman
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
@@ -146,4 +146,4 @@ DEPENDENCIES
   pry-byebug
 
 BUNDLED WITH
-   1.15.4
+   1.16.0

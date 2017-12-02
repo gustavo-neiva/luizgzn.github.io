@@ -7,8 +7,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+@import "font-awesome-sprockets";
 
 // Your CSS partials
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
+
