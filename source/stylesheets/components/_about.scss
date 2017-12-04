@@ -1,12 +1,11 @@
 #about {
   height: 200vh;
-  display: flex;
-  flex-direction: column;
   background-color: white;
   img {
     align-content: center;
     width: 300px;
     height: 300px;
+    border-radius: 50%;
     box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
   }
   img:hover {
@@ -29,7 +28,7 @@
     font-size: 250px;
     font-weight: 800;
     letter-spacing: -20px;
-    line-height: 80%;
+    line-height: 78%;
     background: linear-gradient(270deg, #4caf50, #ab47bc, #2196f3, #3949ab);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
