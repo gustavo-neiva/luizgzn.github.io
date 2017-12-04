@@ -6,28 +6,17 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <script src="https://use.fontawesome.com/5dd02aea14.js"></script>
     <title><%= current_page.data.title %></title>
+    <script src="https://use.fontawesome.com/5dd02aea14.js"></script>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <%= partial 'layouts/navbar' %>
+    <%= partial 'layouts/about' %>
     <%= yield %>
+    <%= partial 'layouts/footer' %>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   </body>
 </html>

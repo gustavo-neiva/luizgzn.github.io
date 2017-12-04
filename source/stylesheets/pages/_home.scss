@@ -1,3 +1,4 @@
+/* Home general */
 #home {
     background-color: #FFFFFF;
     color: white;
@@ -16,44 +17,3 @@ body {
     flex-direction: column;
 }
 
-.links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 100px;
-    text-align: center;
-    margin-bottom: 100px;
-}
-
-.links a {
-    text-decoration: none;
-    font-size: 80px;
-    padding: 0px 10px;
-}
-
-.links a:hover {
-    opacity: .5;
-    text-decoration: none;
-}
-
-.red {
-    color: #ef5350;
-}
-
-.purple {
-    color: #ab47bc;
-}
-
-.dark-blue {
-    color: #3949ab;
-}
-
-.blue {
-    color: #2196f3;
-}
-
-.green {
-    color: #4caf50;
-}

@@ -1,105 +1,63 @@
-/* Main navbar */
+/* Main header */
 
-.navbar-wagon {
+.header {
     background: #ffffff;
     transition: all 0.3s ease;
-    height: 70px;
+    height: 100px;
     padding: 0px 30px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     position: relative;
-}
-
-.navbar-wagon {
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 10;
 }
 
-.white {
-    background-color: white;
-    opacity: .9;
-}
-
-@media all and (max-width: 991px) {
-    .navbar-wagon {
-        border-bottom: none;
-    }
-}
-
-
 /* Logo */
 
-.navbar-wagon-brand img {
+.header-brand img {
     height: 120px;
     padding-top: 0.7em;
 }
 
 /* Right section */
 
-.navbar-wagon-right {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header-links a {
+    text-decoration: none;
 }
 
 
-/* Basic navbar item */
+/* Basic header item */
 
-.navbar-wagon-item {
+.header-item {
     cursor: pointer;
     padding: 0 20px;
 }
 
 
-/* Navbar link */
+/* Header link */
 
-.navbar-wagon-link {
+.header-link {
     color: #000000;
     font-size: 36px;
 }
 
-.navbar-wagon-link:hover {
-    color: #0089C6;
-    text-decoration: none;
+.header-link.purple:hover {
+    color: #ab47bc;
 }
 
-
-/* Dropdown menu */
-
-.navbar-wagon-dropdown-menu {
-    margin-top: 15px;
-    box-shadow: 1px 1px 4px #E6E6E6;
-    border-color: #E6E6E6;
+.header-link.green:hover {
+    color: #4caf50;
 }
 
-.navbar-wagon-dropdown-menu li>a {
-    transition: color 0.3s ease;
-    font-weight: lighter !important;
-    color: #999999 !important;
-    font-size: 15px !important;
-    line-height: 22px !important;
-    padding: 10px 20px;
+.header-link.blue:hover {
+    color: #2196f3;
 }
 
-.navbar-wagon-dropdown-menu li>a:hover {
-    background: transparent !important;
-    color: #ED6638 !important;
-}
-
-.navbar-wagon-dropdown-menu:before {
-    content: ' ';
-    height: 10px;
-    width: 10px;
-    position: absolute;
-    right: 10px;
-    top: -6px;
-    background-color: white;
-    transform: rotate(45deg);
-    border-left: 1px solid #E6E6E6;
-    border-top: 1px solid #E6E6E6;
+.header-link.dark-blue:hover {
+    color: #3949ab;
 }
 
 .nav-up {
@@ -117,4 +75,8 @@
     margin-left: 20px;
     float: left;
     margin-top: 10px;
+}
+
+.opacity {
+    opacity: 0.9;
 }

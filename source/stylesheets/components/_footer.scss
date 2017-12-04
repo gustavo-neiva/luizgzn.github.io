@@ -1,0 +1,43 @@
+/* Contact links */
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 120px;
+  padding: 0px 10px;
+  color: darkgrey;
+}
+
+
+/* Hover colors links */
+
+.links a i.fa-envelope.red:hover {
+  color: #ef5350;
+  text-decoration: none;
+}
+
+.links a i.fa-github.purple:hover {
+  color: #ab47bc;
+}
+
+.links a i.fa-medium.green:hover {
+  color: #4caf50;
+}
+
+.links a i.fa-twitter.blue:hover {
+  color: #2196f3;
+}
+
+.links a i.fa-linkedin.dark-blue:hover {
+  color: #3949ab;
+}
