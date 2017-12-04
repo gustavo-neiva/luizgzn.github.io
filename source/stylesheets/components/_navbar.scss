@@ -1,77 +1,83 @@
-/* Main navbar */
-.navbar-wagon {
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: white;
-  transition: all 0.3s ease;
-  height: 70px;
-  padding: 0px 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+/* Main header */
+
+.header {
+    background: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+    height: 100px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 /* Logo */
-.navbar-wagon-brand img {
-  height: 50px;
-}
 
-/* User Avatar */
-.navbar-wagon .avatar {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
+.header-brand img {
+    height: 120px;
+    padding-top: 0.7em;
 }
 
 /* Right section */
-.navbar-wagon-right {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+.header-links a {
+    text-decoration: none;
 }
 
-/* Basic navbar item */
-.navbar-wagon-item {
-  cursor: pointer;
-  padding: 0 20px;
+
+/* Basic header item */
+
+.header-item {
+    cursor: pointer;
+    padding: 0 20px;
 }
 
-/* Navbar link */
-.navbar-wagon-link {
-  color: #616668;
-  font-size: 14px;
-}
-.navbar-wagon-link:hover {
-  color: #da552f;
-  text-decoration: none;
+
+/* Header link */
+
+.header-link {
+    color: #000000;
+    font-size: 36px;
 }
 
-/* Dropdown menu */
-.navbar-wagon-dropdown-menu {
-  margin-top: 15px;
-  box-shadow: 1px 1px 4px #E6E6E6;
-  border-color: #E6E6E6;
+.header-link.purple:hover {
+    color: #ab47bc;
 }
-.navbar-wagon-dropdown-menu li > a {
-  transition: color 0.3s ease;
-  font-weight: lighter !important;
-  color: #999999 !important;
-  font-size: 15px !important;
-  line-height: 22px !important;
-  padding: 10px 20px;
+
+.header-link.green:hover {
+    color: #4caf50;
 }
-.navbar-wagon-dropdown-menu li > a:hover {
-  background: transparent !important;
-  color: black !important;
+
+.header-link.blue:hover {
+    color: #2196f3;
 }
-.navbar-wagon-dropdown-menu:before {
-  content: ' ';
-  height: 10px;
-  width: 10px;
-  position: absolute;
-  right: 10px;
-  top: -6px;
-  background-color: white;
-  transform: rotate(45deg);
-  border-left: 1px solid #E6E6E6;
-  border-top: 1px solid #E6E6E6;
+
+.header-link.dark-blue:hover {
+    color: #3949ab;
+}
+
+.nav-up {
+    top: -40px; // same as header height. use variables in LESS/SASS
+}
+
+
+// Header name
+
+.hidden {
+    display: none;
+}
+
+.name {
+    margin-left: 20px;
+    float: left;
+    margin-top: 10px;
+}
+
+.opacity {
+    opacity: 0.9;
 }

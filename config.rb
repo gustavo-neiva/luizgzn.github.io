@@ -3,6 +3,7 @@ activate :autoprefixer do |prefix|
 end
 
 activate :sprockets
+set :fonts_dir,  "../fonts";
 
 page '/*.xml', layout: false
 page '/*.json', layout: false

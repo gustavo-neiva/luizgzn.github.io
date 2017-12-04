@@ -1,14 +1,55 @@
 // Graphical variables
 @import "config/fonts";
 @import "config/colors";
-@import "config/bootstrap_variables";
-
 // External libraries
-@import "bootstrap-sprockets";
-@import "bootstrap";
 @import "font-awesome";
+@import "font-awesome-sprockets";
 
 // Your CSS partials
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
+
+@media (max-width: 1000px) {
+  .name {
+    font-size: 200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .name{
+    font-size: 150px;
+  }
+  .header-links {
+    font-size: 15px;
+    float: left;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .name-letter {
+    font-size: 100px;
+  }
+  .logo {
+    margin-top: 0px;
+  }
+  .header-links {
+    text-align: center;
+    margin-right: 0px;
+    font-size: .75rem;
+  }
+  .section-letter {
+    font-size: 50px;
+    letter-spacing: -10px;
+  }
+  .social-link {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 350px) {
+  #name {
+    font-size: 80px;
+  }
+}
