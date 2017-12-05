@@ -1,6 +1,7 @@
 // Graphical variables
 @import "config/fonts";
 @import "config/colors";
+@import "config/animation";
 // External libraries
 @import "font-awesome";
 @import "font-awesome-sprockets";
@@ -9,6 +10,21 @@
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
+
+.section-header {
+  grid-row-start: span 5;
+  font-size: 100px;
+  font-weight: 800;
+  letter-spacing: -10px;
+  margin-left: 23px;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
 
 @media (max-width: 1000px) {
   .name {
