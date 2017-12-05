@@ -1,5 +1,3 @@
-//= require_tree .
-
 // Header movement //
 
 window.onscroll = (e) => {
