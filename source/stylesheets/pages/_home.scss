@@ -1,7 +1,9 @@
 /* Home general */
-#home {
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     background-color: #FFFFFF;
-    color: white;
     height: 100vh;
     margin: 8px;
     background: white;
@@ -9,8 +11,6 @@
 }
 
 body {
-    margin-left: 100px;
-    margin-right: 100px;
     font-family: 'Open Sans', sans-serif;
 }
 
