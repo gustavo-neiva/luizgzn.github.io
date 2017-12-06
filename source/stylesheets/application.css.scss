@@ -21,7 +21,6 @@
 
 .head {
   grid-column: span 6;
-  grid-row: 1;
 }
 
 .torso {
@@ -65,6 +64,11 @@ a.anchor {
     margin-left: 30px;
     margin-right: 30px;
   }
+  .header-brand img {
+    height: 120px;
+    padding-top: 0.7em;
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 800px) {
@@ -85,6 +89,10 @@ a.anchor {
   .bio {
     margin-left: 0px;
   }
+  .header-link {
+    font-size: 28px;
+    margin-right: 0.5em;
+  }
 }
 
 @media (max-width: 600px) {
@@ -104,6 +112,10 @@ a.anchor {
     margin-left: 0px;
     font-size: 1rem;
   }
+  .header-link {
+    font-size: 24px;
+    margin-right: 0.5em;
+  }
   .header-links {
     text-align: center;
     margin-right: -5px;
@@ -122,5 +134,9 @@ a.anchor {
   .name-word {
     font-size: 80px;
     letter-spacing: -5px;
+  }
+  .header-link {
+    font-size: 20px;
+    margin-right: 0.5em;
   }
 }

@@ -5,13 +5,14 @@
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
     height: 100px;
-    padding: 0px 30px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: relative;
     top: 0;
+    position: fixed;
     z-index: 10;
+    grid-column: span 6;
+    width: 100%;
 }
 
 /* Logo */
@@ -19,7 +20,7 @@
 .header-brand img {
     height: 120px;
     padding-top: 0.7em;
-    margin-left: 11px;
+    margin-left: -76px;
 }
 
 /* Right section */
@@ -60,21 +61,10 @@
     color: #3949ab;
 }
 
-.nav-up {
-    top: -40px; // same as header height. use variables in LESS/SASS
-}
-
-
 // Header name
 
 .hidden {
     display: none;
-}
-
-.name {
-    margin-left: 20px;
-    float: left;
-    margin-top: 10px;
 }
 
 .opacity {
