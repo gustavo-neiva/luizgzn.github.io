@@ -1,53 +1,52 @@
-.portfolio {
-  height: 150vh;
-  background-color: white;
-  margin-left: 100px;
-  margin-right: 100px;
-  .cards {
-    display: flex;
-    display: -webkit-flexbox;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 10px;
-  }
-  .card {
-    margin: .5rem .5rem 1rem .5rem;
-    padding: .5rem 1rem 1rem 1rem;
-    border-radius: 2px;
-    text-align: center;
-    font-size: 1.3em;
-    font-family: 'Lato', sans-serif;
-    max-width: 27%;
-  }
-  .card:hover {
-    position: relative;
-    top: -5px;
-    left: -5px;
-    box-shadow: 5px 5px 5px 5px lightgray;
-  }
-  .icons {
-    margin-top: -30px;
-    margin-bottom: -10px;
-    font-size: 40px;
-  }
-  .project-link {
-    color: white;
-    text-decoration: none;
-  }
-  h5 {
-    font-size: 1.64em;
-    line-height: 110%;
-    display: block;
-    font-size: 0.83em;
-    -webkit-margin-before: 1.67em;
-    -webkit-margin-after: 1.67em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
-  }
-
+// .portfolio {
+//   height: 150vh;
+//   background-color: white;
+//   margin-left: 100px;
+//   margin-right: 100px;
+// }
+.cards {
+  display: flex;
+  display: -webkit-flexbox;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.card {
+  margin: .5rem .5rem 1rem .5rem;
+  padding: .5rem 1rem 1rem 1rem;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Lato', sans-serif;
+  max-width: 27%;
+}
+.card:hover {
+  position: relative;
+  top: -5px;
+  left: -5px;
+  box-shadow: 5px 5px 5px 5px lightgray;
+}
+.icons {
+  margin-top: -30px;
+  margin-bottom: -10px;
+  font-size: 40px;
+}
+.project-link {
+  color: white;
+  text-decoration: none;
+}
+h5 {
+  font-size: 1.64em;
+  line-height: 110%;
+  display: block;
+  font-size: 0.83em;
+  -webkit-margin-before: 1.67em;
+  -webkit-margin-after: 1.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
 }
