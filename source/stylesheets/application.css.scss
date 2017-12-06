@@ -19,19 +19,20 @@
   margin-right: 1em;
 }
 
-.head {
+.navbar {
+  grid-column: span 6;
+  width: 100%;
+}
+
+.about {
   grid-column: span 6;
 }
 
-.torso {
+.portfolio {
   grid-column: span 6;
 }
 
-.stomach {
-  grid-column: span 6;
-}
-
-.foot {
+.footer {
   grid-column: span 6;
   grid-row: 8;
 }
@@ -40,7 +41,6 @@
   grid-row-start: span 5;
   font-size: 100px;
   font-weight: 800;
-  letter-spacing: -10px;
   margin-left: 23px;
 }
 
@@ -53,8 +53,7 @@ a.anchor {
 
 @media (max-width: 1000px) {
   .name-word{
-    font-size: 200px;
-    letter-spacing: -15px;
+    font-size: 130px;
   }
   .card {
     max-width: 100%;
@@ -69,12 +68,30 @@ a.anchor {
     padding-top: 0.7em;
     margin-left: 0;
   }
+  .links a i.fa-envelope.red {
+    color: #ef5350;
+  }
+
+  .links a i.fa-github.purple {
+    color: #ab47bc;
+  }
+
+  .links a i.fa-medium.green {
+    color: #4caf50;
+  }
+
+  .links a i.fa-twitter.blue {
+    color: #2196f3;
+  }
+
+  .links a i.fa-linkedin.dark-blue {
+    color: #3949ab;
+  }
 }
 
 @media (max-width: 800px) {
   .name-word {
-    font-size: 150px;
-    letter-spacing: -10px;
+    font-size: 100px;
   }
   .bio {
     margin-right: 10px;
@@ -97,7 +114,7 @@ a.anchor {
 
 @media (max-width: 600px) {
   .name-word {
-    font-size: 100px;
+    font-size: 80px;
     margin-top: 0px;
     letter-spacing: -5px;
   }
@@ -123,7 +140,6 @@ a.anchor {
   }
   .section-header {
     font-size: 50px;
-    letter-spacing: -10px;
   }
   .social-links {
     font-size: 50px;
@@ -132,8 +148,7 @@ a.anchor {
 
 @media (max-width: 350px) {
   .name-word {
-    font-size: 80px;
-    letter-spacing: -5px;
+    font-size: 60px;
   }
   .header-link {
     font-size: 20px;
