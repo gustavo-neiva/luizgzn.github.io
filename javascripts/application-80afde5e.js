@@ -1,5 +1,3 @@
-
-
 // Header movement //
 
 window.onscroll = (e) => {
