@@ -11,6 +11,15 @@
 @import "components/index";
 @import "pages/index";
 
+canvas {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  margin-left: 0em;
+}
+
 .section-header {
   grid-row-start: span 5;
   font-size: 100px;
@@ -27,45 +36,74 @@ a.anchor {
 }
 
 @media (max-width: 1000px) {
-  .name {
+  .name-word{
     font-size: 200px;
+    letter-spacing: -15px;
+  }
+  .card {
+    max-width: 100%;
+    width: 100%;
+  }
+  .opening {
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 
 @media (max-width: 800px) {
-  .name{
+  .name-word {
     font-size: 150px;
+    letter-spacing: -10px;
+  }
+  .bio {
+    margin-right: 10px;
   }
   .header-links {
     font-size: 15px;
     float: left;
   }
+  .img-circle {
+    display: none;
+  }
+  .bio {
+    margin-left: 0px;
+  }
 }
 
-
 @media (max-width: 600px) {
-  .name-letter {
+  .name-word {
     font-size: 100px;
-  }
-  .logo {
     margin-top: 0px;
+    letter-spacing: -5px;
+  }
+  .opening {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .card {
+    margin-left: 0px;
+  }
+  p {
+    margin-left: 0px;
+    font-size: 1rem;
   }
   .header-links {
     text-align: center;
-    margin-right: 0px;
+    margin-right: -5px;
     font-size: .75rem;
   }
-  .section-letter {
+  .section-header {
     font-size: 50px;
     letter-spacing: -10px;
   }
-  .social-link {
+  .social-links {
     font-size: 50px;
   }
 }
 
 @media (max-width: 350px) {
-  #name {
+  .name-word {
     font-size: 80px;
+    letter-spacing: -5px;
   }
 }

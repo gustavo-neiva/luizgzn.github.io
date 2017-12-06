@@ -1,5 +1,5 @@
 .portfolio {
-  height: 185vh;
+  height: 150vh;
   background-color: white;
   margin-left: 100px;
   margin-right: 100px;
@@ -28,6 +28,11 @@
     top: -5px;
     left: -5px;
     box-shadow: 5px 5px 5px 5px lightgray;
+  }
+  .icons {
+    margin-top: -30px;
+    margin-bottom: -10px;
+    font-size: 40px;
   }
   .project-link {
     color: white;

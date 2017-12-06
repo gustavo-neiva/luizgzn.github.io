@@ -10,3 +10,7 @@ window.onscroll = (e) => {
     header.classList.remove("opacity")
   }
 }
+
+window.onresize = () => {
+  resizeCanvas(window.innerWidth, document.body.offsetHeight)
+}

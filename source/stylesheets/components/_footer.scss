@@ -7,22 +7,27 @@
 }
 
 .links {
-  grid-row: 10;
-  grid-column: span 12;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 100px;
   text-align: center;
   margin-bottom: 100px;
-}
-
-.links a {
   text-decoration: none;
   font-size: 120px;
   padding: 0px 10px;
+}
+
+.links a {
   color: darkgrey;
 }
 
@@ -30,7 +35,6 @@
 
 .links a i.fa-envelope.red:hover {
   color: #ef5350;
-  text-decoration: none;
 }
 
 .links a i.fa-github.purple:hover {
