@@ -1,4 +1,4 @@
-.portfolio {
+.content{
   margin-left: 5em;
   margin-right: 5em;
 }
@@ -21,6 +21,10 @@
   font-size: 1.3em;
   font-family: 'Lato', sans-serif;
   max-width: 27%;
+  color: white;
+}
+a.card {
+text-decoration: none;
 }
 .card:hover {
   position: relative;
@@ -32,19 +36,14 @@
   margin-top: -30px;
   margin-bottom: -10px;
   font-size: 40px;
-}
-.project-link {
   color: white;
-  text-decoration: none;
 }
 h5 {
   font-size: 1.64em;
   line-height: 110%;
-  display: block;
-  font-size: 0.83em;
-  -webkit-margin-before: 1.67em;
-  -webkit-margin-after: 1.67em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
   font-weight: bold;
+  color: white;
+}
+.green-background{
+  background-color: #34e79a;
 }
