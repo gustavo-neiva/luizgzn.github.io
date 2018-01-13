@@ -47,7 +47,7 @@ strong {
 }
 
 .about {
-  grid-column: span 5;
+  grid-column: span 6;
 }
 
 .portfolio {
@@ -56,14 +56,11 @@ strong {
 
 .footer {
   grid-column: span 6;
-  grid-row: 8;
 }
 
 .section-header {
-  grid-row-start: span 5;
   font-size: 100px;
   font-weight: 800;
-  margin-left: 23px;
 }
 
 a.anchor {
@@ -81,14 +78,8 @@ a.anchor {
     max-width: 100%;
     width: 100%;
   }
-  .opening {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-  .header-brand img {
-    height: 120px;
-    padding-top: 0.7em;
-    margin-left: 0;
+  .img-circle {
+    display: none;
   }
   .links a i.fa-envelope.red {
     color: #ef5350;
@@ -115,23 +106,20 @@ a.anchor {
   .name-word {
     font-size: 100px;
   }
-  .bio {
-    margin-right: 10px;
-  }
-  .header-links {
-    font-size: 15px;
-    float: left;
-  }
+  // .header-links {
+  //   font-size: 15px;
+  //   float: left;
+  // }
   .img-circle {
     display: none;
   }
-  .bio {
-    margin-left: 0px;
-  }
   .header-link {
-    font-size: 28px;
+    font-size: 30px;
     margin-right: 0.5em;
   }
+   .social-links {
+     font-size: 80px;
+   }
 }
 
 @media (max-width: 600px) {
@@ -151,20 +139,17 @@ a.anchor {
     margin-left: 0px;
     font-size: 1rem;
   }
-  .header-link {
-    font-size: 24px;
-    margin-right: 0.5em;
-  }
-  .header-links {
-    text-align: center;
-    margin-right: -5px;
-    font-size: .75rem;
-  }
   .section-header {
     font-size: 50px;
   }
   .social-links {
     font-size: 50px;
+  }
+  .navbar{
+    display: none;
+  }
+  .title{
+    margin-top: 3px;
   }
 }
 
@@ -172,8 +157,7 @@ a.anchor {
   .name-word {
     font-size: 60px;
   }
-  .header-link {
-    font-size: 20px;
-    margin-right: 0.5em;
+  .social-links {
+    font-size: 30px;
   }
 }
