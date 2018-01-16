@@ -59,7 +59,7 @@ strong {
 }
 
 .section-header {
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 800;
 }
 
@@ -71,9 +71,6 @@ a.anchor {
 }
 
 @media (max-width: 1000px) {
-  .name-word{
-    font-size: 130px;
-  }
   .card {
     max-width: 100%;
     width: 100%;
@@ -104,7 +101,7 @@ a.anchor {
 
 @media (max-width: 800px) {
   .name-word {
-    font-size: 100px;
+    font-size: 80px;
   }
   // .header-links {
   //   font-size: 15px;
@@ -137,7 +134,7 @@ a.anchor {
   }
   p {
     margin-left: 0px;
-    font-size: 1rem;
+    font-size: 16px;
   }
   .section-header {
     font-size: 50px;
